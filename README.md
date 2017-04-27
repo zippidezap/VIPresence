@@ -5,7 +5,9 @@ Cisco Spark location detection Bot with Meraki Location Analytics
 Meraki CMX Spark Integration:
 Retail:
 
-This is an integration between Meraki CMX, Spark. The idea here is for a retail store to be alerted via Spark when a high value customer enters the store. There are many use cases that also use this technology but high value/importance customers were the immediate ask for this project.
+This is an integration between Meraki Location Analytics, Spark. The idea here is for a retail store to be alerted via Spark when a high value customer enters the store. There are many use cases that also use this technology but high value/importance customers were the immediate ask for this project.
+
+Our bot is fully interactive and allows you to monitor as many different MAC address' as you wish. Meraki Location Analytics posts data every time there is a change in the network to our application, we interpret the data sent to see if a device our bot is monitoring is in range. If so we then notify the end user as to the persons presence.
 
 
 The code is run using Node JS and BotKit. So these will both need installing first. We also used NGROK such that we can host the bot locally rather than using AWS or the like, however this is your choice whether you wish to use this.
