@@ -11,7 +11,9 @@ This is an integration between Meraki CMX, Spark. The idea here is for a retail 
 The code is run using Node JS and BotKit. So these will both need installing first. We also used NGROK such that we can host the bot locally rather than using AWS or the like, however this is your choice whether you wish to use this.
 
 https://github.com/howdyai/botkit-starter-ciscospark
+
 https://nodejs.org/en/
+
 https://ngrok.com
 
 You will also need to change a few variables within the spark_bot.js file. In order to point the code to not just ngrok but for the Meraki Post reciever.
