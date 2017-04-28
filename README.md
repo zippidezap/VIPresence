@@ -26,7 +26,9 @@ https://ngrok.com
 You will also need to change a few variables within the spark_bot.js file. In order to point the code to not just ngrok but for the Meraki Post reciever.
 
 Change 'public_address' line 7: to the web address the bot will be hosted on, so your AWS deployment or your NGROK IP.
+
 Change 'secret' line 434: to the secret used in your Meraki POST API settings.
+
 Change 'validator' line 435: to the validator provided to you in the Meraki POST API settings.
 
 Once this is done in the Meraki POST API settings you will also need to point your POST dumps to the URL being used by NGROK or AWS.
