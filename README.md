@@ -9,6 +9,11 @@ This is an integration between Meraki Location Analytics, Spark. The idea here i
 
 Our bot is fully interactive and allows you to monitor as many different MAC address' as you wish. Meraki Location Analytics posts data every time there is a change in the network to our application, we interpret the data sent to see if a device our bot is monitoring is in range. If so we then notify the end user as to the persons presence.
 
+Below is a link to our overview video of the project:
+
+https://cisco.box.com/s/scbq07uy7of2hzg9z9lkl609d37n6ary
+
+Implementation:
 
 The code is run using Node JS and BotKit. So these will both need installing first. We also used NGROK such that we can host the bot locally rather than using AWS or the like, however this is your choice whether you wish to use this.
 
